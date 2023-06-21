@@ -1,0 +1,12 @@
+@keyframes radar-rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .radar-container svg {
+    animation: radar-rotation 2s linear infinite;
+  }  
